@@ -1,0 +1,30 @@
+.Menu {
+	display: flex;
+    flex-direction: column;
+    background-image: url("../../../Assets/Images/blueBackground.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+.Menu > * {
+    margin-top: 20px;
+}
+
+/*.active
+זה קלאס מובנה כבר בריאקט אשר משנה צבע של לינקים בעת הלחיצה 
+ולא צריך להזין קלאס זה על תגים מכיוון שהוא מובנה כבר בריאקט ופשוט צריל להזין אותו כך 
+והוא יופנה לכל התגית שבתוך הקלאס בנבחר 
+(Menu) */
+.Menu > .active {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.borderBottum {
+border-bottom: 1px solid black;
+color: black;
+}
