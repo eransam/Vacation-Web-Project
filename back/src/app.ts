@@ -6,9 +6,8 @@ import expressFileUpload from "express-fileupload";
 import cors from "cors";
 import errorsHandler from "./02-middleware/errors-handler";
 import ErrorModel from "./03-models/error-model";
-import productsController from "./06-controllers/products-controller";
 import autoController from "./06-controllers/auth-controller";
-import vacationsController from "./06-controllers/vacations-controller";
+import productController from "./06-controllers/product-controller";
 import  followersController from "./06-controllers/follows-controller";
 import socketLogic from "./05-logic/socket-logic";
 
@@ -33,9 +32,8 @@ const frontendDir = path.join(__dirname, "07-frontend"); // Create full path to 
 //index.html הפקודה סטטיק תמיד מצביעה על הדף 
 server.use(express.static(frontendDir)); // Serve index.html when user request root url.
 
-server.use("/api", productsController);
 server.use("/api", autoController);
-server.use("/api", vacationsController);
+server.use("/api", productController);
 server.use("/api", followersController);
 
 

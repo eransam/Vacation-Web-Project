@@ -4,8 +4,8 @@ class Config {
 class DevelopmentConfig extends Config {
     
     //vacations:
-    public vacationsUrl = "http://localhost:3001/api/vacations/";
-    public vacationsImageUrl = "http://localhost:3001/api/vacations/images/";
+    public vacationsUrl = "http://localhost:3001/api/products/";
+    public vacationsImageUrl = "http://localhost:3001/api/products/images/";
     public socket = "http://localhost:3001/";
 
 

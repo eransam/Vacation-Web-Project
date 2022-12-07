@@ -8153,3 +8153,141 @@ Stack: Error: connect ECONNREFUSED 127.0.0.1:3306
     at Object.<anonymous> (C:\Users\erans\OneDrive\שולחן העבודה\vacation-pro-15.05.22\back\src\05-logic\auth-logic.ts:103:29)
     at step (C:\Users\erans\OneDrive\שולחן העבודה\vacation-pro-15.05.22\back\src\05-logic\auth-logic.ts:33:23)
 ----------------------------------------------------------------------------------------------------
+Wed, 08 Jun 2022 06:57:11 GMT
+connect ECONNREFUSED 127.0.0.1:3306
+Message: connect ECONNREFUSED 127.0.0.1:3306
+Stack: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+    --------------------
+    at Protocol._enqueue (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Pool.js:202:8)
+    at C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:21:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:17:12)
+    at Object.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\auth-logic.ts:103:29)
+    at step (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\auth-logic.ts:33:23)
+----------------------------------------------------------------------------------------------------
+Wed, 03 Aug 2022 11:32:04 GMT
+ER_DUP_ENTRY: Duplicate entry 'dd346864-29cb-4f66-ba8c-66b5e600fc24-24' for key 'PRIMARY'
+Message: ER_DUP_ENTRY: Duplicate entry 'dd346864-29cb-4f66-ba8c-66b5e600fc24-24' for key 'PRIMARY'
+Stack: Error: ER_DUP_ENTRY: Duplicate entry 'dd346864-29cb-4f66-ba8c-66b5e600fc24-24' for key 'PRIMARY'
+    at Query.Sequence._packetToError (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:376:20)
+    at Socket.emit (domain.js:470:12)
+    --------------------
+    at Pool.query (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:21:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:17:12)
+    at Object.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\follows-logic.ts:14:36)
+    at step (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\follows-logic.ts:33:23)
+    at Object.next (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\follows-logic.ts:14:53)
+    at C:\eran\projects\Vacation-Web-Project\back\src\05-logic\follows-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\follows-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Sun, 06 Nov 2022 21:49:48 GMT
+ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+Message: ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+    at Query.Sequence._packetToError (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:376:20)
+    at Socket.emit (domain.js:470:12)
+    --------------------
+    at Pool.query (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:17:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:15:12)
+    at Object.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:18:30)
+    at step (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:33:23)
+    at Object.next (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:14:53)
+    at C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Sun, 06 Nov 2022 21:50:06 GMT
+ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+Message: ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+    at Query.Sequence._packetToError (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:376:20)
+    at Socket.emit (domain.js:470:12)
+    --------------------
+    at Pool.query (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:17:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:15:12)
+    at Object.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:18:30)
+    at step (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:33:23)
+    at Object.next (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:14:53)
+    at C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Sun, 06 Nov 2022 21:50:33 GMT
+ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+Message: ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+Stack: Error: ER_BAD_FIELD_ERROR: Unknown column 'F.productId' in 'where clause'
+    at Query.Sequence._packetToError (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:376:20)
+    at Socket.emit (domain.js:470:12)
+    --------------------
+    at Pool.query (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:17:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:15:12)
+    at Object.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:18:30)
+    at step (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:33:23)
+    at Object.next (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:14:53)
+    at C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\product-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------
+Mon, 21 Nov 2022 21:24:45 GMT
+read ECONNRESET
+Message: read ECONNRESET
+Stack: Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+    --------------------
+    at Pool.query (C:\eran\projects\Vacation-Web-Project\back\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:17:20
+    at new Promise (<anonymous>)
+    at Object.execute (C:\eran\projects\Vacation-Web-Project\back\src\04-dal\dal.ts:15:12)
+    at Object.<anonymous> (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\auth-logic.ts:103:29)
+    at step (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\auth-logic.ts:33:23)
+    at Object.next (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\auth-logic.ts:14:53)
+    at C:\eran\projects\Vacation-Web-Project\back\src\05-logic\auth-logic.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\eran\projects\Vacation-Web-Project\back\src\05-logic\auth-logic.ts:4:12)
+----------------------------------------------------------------------------------------------------

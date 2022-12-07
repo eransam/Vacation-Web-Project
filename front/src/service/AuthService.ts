@@ -3,7 +3,7 @@ import CredentialsModel from "../Models/CredentialsModel";
 import UserModel from "../Models/UserModel";
 import { loginAction, logoutAction, registerAction } from "../redux/AuthState";
 import store from "../redux/Store";
-import { resetVacotionAction } from "../redux/VacotionState";
+import { resetVacotionAction } from "../redux/ProductState";
 import config from "../utils/Config";
 import socketService from "./SocketService";
 

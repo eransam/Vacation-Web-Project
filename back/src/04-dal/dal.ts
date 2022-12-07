@@ -9,24 +9,18 @@ const connection = mysql.createPool({
     database: config.mysql.database, // Database name 
 });
 
-// sql: "SELECT * FROM Products"
-// לצורכי אבטחה values פה אנו שולחים לפונ' גם 
+
 function execute(sql: string, values?: any[]): Promise<any> {
 
-    // Promisify sql access:
     return new Promise<any>((resolve, reject) => {
 
-        // Execute SQL query:
-        //לצורכי אבטחה valuesפה כנ''ל אנו מקבלים שאילתה ו 
         connection.query(sql, values, (err, result) => {
 
-            // On error - report the error: 
             if(err) {
                 reject(err);
                 return;
             }
 
-            // On success - report the return data: 
             resolve(result);
         });
     });

@@ -4,7 +4,7 @@ import vacationPic from '../../../Assets/Images/vacation1.jpg'
 import { Button } from "@material-ui/core";
 import "./homeEnter.css";
 import { useEffect } from "react";
-import vacationService from "../../../service/VacationService";
+import productService from "../../../service/productService";
 import store from "../../../redux/Store";
 
 
@@ -13,7 +13,7 @@ function HomeEnter(): JSX.Element {
     useEffect(() => {
         try {
             if (store.getState().authState.user !== null) {
-            vacationService.fetchVacotion(false)
+                productService.fetchProduct(false)
             }
         }
          catch (error) {

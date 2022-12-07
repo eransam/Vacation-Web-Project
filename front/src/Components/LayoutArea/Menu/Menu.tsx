@@ -21,30 +21,31 @@ function Menu(): JSX.Element {
     
     return (
         <div className="Menu">
-        {user?.role === "admin" ? <>
+        {/* {user?.role === "admin" ? <> */}
         
-        <p className="borderBottum"><b>תפריט מנהל</b></p>
-        <NavLink to="/AdminGraf">גרף עוקבים</NavLink>
-        <NavLink to="/vacation/new">הוספת חופשה</NavLink>
-        <NavLink to="/VacationList">רשימת חופשות</NavLink>
-        <br/>
+        <p className="borderBottum"><b>תפריט </b></p>
+        {/* <NavLink to="/AdminGraf">גרף עוקבים</NavLink> */}
+        <NavLink to="/home">דף הבית</NavLink>
+        <NavLink to="/about">עלינו</NavLink>
+        <NavLink to="/product/new">הוספת מוצר</NavLink>
+        <NavLink to="/product">רשימת מוצרים</NavLink>
+        {/* <br/>
 
-        <p className="borderBottum"><b>תפריט לקוחות</b></p>
-            <NavLink to="/home">דף הבית</NavLink>
-            <NavLink to="/about">עלינו</NavLink>
-            <NavLink to="/productsVacation">מוצרים שכדאי לקחת לחופשה המושלמת</NavLink>
-            <NavLink to="/storyseccses">סיפורי הצלחה</NavLink>
-            <NavLink to="/YoutubeVideo">הכנסו למסע אל תוך החופשות המדהימות שלנו</NavLink>  
+        <p className="borderBottum"><b>תפריט לקוחות</b></p> */}
+
+            {/* <NavLink to="/productsProduct">מוצרים שכדאי לקחת לחופשה המושלמת</NavLink> */}
+            {/* <NavLink to="/storyseccses">סיפורי הצלחה</NavLink> */}
+            {/* <NavLink to="/YoutubeVideo">הכנסו למסע אל תוך החופשות המדהימות שלנו</NavLink>   */}
              
-            </> : <>
-                <NavLink to="/home">דף הבית</NavLink>
-                <NavLink to="/about">עלינו</NavLink>
-                <NavLink to="/productsVacation">מוצרים שכדאי לקחת לחופשה המושלמת</NavLink>
-                 <NavLink to="/VacationList">רשימת חופשות</NavLink>
+            {/* </> : <> */}
+                {/* <NavLink to="/home">דף הבית</NavLink>
+                <NavLink to="/about">עלינו</NavLink> */}
+                {/* <NavLink to="/productsProduct">מוצרים שכדאי לקחת לחופשה המושלמת</NavLink>
+                 <NavLink to="/ProductList">רשימת חופשות</NavLink>
                 <NavLink to="/storyseccses">סיפורי הצלחה</NavLink>
-                <NavLink to="/YoutubeVideo">הכנסו למסע אל תוך החופשות המדהימות שלנו</NavLink> 
+                <NavLink to="/YoutubeVideo">הכנסו למסע אל תוך החופשות המדהימות שלנו</NavLink>  */}
 
-                </> }
+                {/* </> } */}
      
 {/*
 תגית זו היא בעצם קומפוננטה והיא מרנדרת את הפעולה מבלי ללכת לשרת ולאתחל שוב את כל 

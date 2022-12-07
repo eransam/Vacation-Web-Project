@@ -1,7 +1,7 @@
 import { io, Socket } from 'socket.io-client';
 import config from '../utils/Config';
-import VacationService from './VacationService';
-import vacationService from './VacationService';
+import VacationService from './productService';
+import vacationService from './productService';
 
 class SocketService {
   private socket: Socket;
@@ -21,7 +21,7 @@ class SocketService {
     //****(מתרנדרת ומציגה את החופשות העדכניות שנמצאות בסטור vacationList)
     this.socket.on('refresh-vacations', () => {
       
-        VacationService.fetchVacotion(true)
+        VacationService.fetchProduct(true)
 
     });
   }
